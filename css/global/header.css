@@ -42,7 +42,8 @@
     position: absolute;
 }
 
-.header-menu a:hover::after { /* Animação do sublinhado ao passar o mouse */
+.header-menu a:hover::after, 
+.header-menu a.ativo::after{ /* Animação do sublinhado ao passar o mouse */
     width: 100%;
 }
 
